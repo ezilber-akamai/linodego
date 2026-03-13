@@ -22,8 +22,11 @@ jobs:
     steps:
       - name: Validate PR Title
         if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          TITLE="${{ github.event.pull_request.title }}"
+          TITLE=$(gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json title --jq '.title')
           
           if [[ ! "$TITLE" =~ ^TPT-[0-9]+:\ .+ ]]; then
             echo "Invalid PR title:"
