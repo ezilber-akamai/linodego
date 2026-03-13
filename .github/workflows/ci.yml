@@ -28,7 +28,7 @@ jobs:
         run: |
           TITLE=$(gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json title --jq '.title')
           
-          if [[ ! "$TITLE" =~ ^TPT-[0-9]+:\ .+ ]]; then
+          if [[ ! "$TITLE" =~ ^TPT-[0-9]+:[[:space:]]*.+ ]]; then
             echo "Invalid PR title:"
             echo "   \"$TITLE\""
             echo ""
