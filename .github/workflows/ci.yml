@@ -19,9 +19,11 @@ on:
 jobs:
   lint-tidy:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
     steps:
       - name: Validate PR Title
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && github.actor != 'dependabot[bot]'
         env:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
@@ -35,12 +37,6 @@ jobs:
           if [[ -z "$TITLE" ]]; then
             echo "Error: 'gh pr view' returned an empty title."
             exit 1
-          fi
-          
-          # Skip ticket-ID validation for Dependabot PRs (e.g. "build(deps): ...")
-          if [[ "$TITLE" =~ ^build\(deps\) ]]; then
-            echo "Dependabot PR detected — skipping ticket-ID validation: $TITLE"
-            exit 0
           fi
 
           if [[ ! "$TITLE" =~ ^TPT-[0-9]+:[[:space:]]*.+ ]]; then

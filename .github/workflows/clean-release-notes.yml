@@ -7,6 +7,8 @@ on:
 jobs:
   clean-release-notes:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Remove ticket prefixes from release notes
