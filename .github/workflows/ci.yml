@@ -37,6 +37,12 @@ jobs:
             exit 1
           fi
           
+          # Skip ticket-ID validation for Dependabot PRs (e.g. "build(deps): ...")
+          if [[ "$TITLE" =~ ^build\(deps\) ]]; then
+            echo "Dependabot PR detected — skipping ticket-ID validation: $TITLE"
+            exit 0
+          fi
+
           if [[ ! "$TITLE" =~ ^TPT-[0-9]+:[[:space:]]*.+ ]]; then
             echo "Invalid PR title:"
             echo "   \"$TITLE\""
