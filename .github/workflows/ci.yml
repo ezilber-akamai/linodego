@@ -22,8 +22,16 @@ jobs:
     permissions:
       pull-requests: read
     steps:
+      # Enforce TPT-1234: prefix on PR titles, with the following exemptions:
+      # - Dependabot PRs (actor is dependabot[bot])
+      # - PRs labeled 'hotfix' (urgent fixes that may not have a ticket)
+      # - PRs labeled 'community-contribution' (external contributors without TPT tickets)
       - name: Validate PR Title
-        if: github.event_name == 'pull_request' && github.actor != 'dependabot[bot]'
+        if: >-
+          github.event_name == 'pull_request'
+          && github.actor != 'dependabot[bot]'
+          && !contains(github.event.pull_request.labels.*.name, 'hotfix')
+          && !contains(github.event.pull_request.labels.*.name, 'community-contribution')
         env:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
