@@ -20,43 +20,34 @@ jobs:
   lint-tidy:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pull-requests: read
     steps:
       # Enforce TPT-1234: prefix on PR titles, with the following exemptions:
       # - Dependabot PRs (actor is dependabot[bot])
       # - PRs labeled 'hotfix' (urgent fixes that may not have a ticket)
       # - PRs labeled 'community-contribution' (external contributors without TPT tickets)
+      # - PRs labeled 'ignore-for-release' (release PRs that don't need a ticket prefix)
       - name: Validate PR Title
         if: >-
           github.event_name == 'pull_request'
           && github.actor != 'dependabot[bot]'
-          && !contains(github.event.pull_request.labels.*.name, 'hotfix')
-          && !contains(github.event.pull_request.labels.*.name, 'community-contribution')
+        uses: amannn/action-semantic-pull-request@v6
+        with:
+          types: |
+            TPT-\d+
+          requireScope: false
+          # Override the default header pattern to allow hyphens and digits in the type
+          # (e.g. "TPT-4298: Description"). The default pattern only matches word
+          # characters (\w) which excludes hyphens.
+          headerPattern: '^([\w-]+):\s?(.*)$'
+          headerPatternCorrespondence: type, subject
+          ignoreLabels: |
+            hotfix
+            community-contribution
+            ignore-for-release
         env:
-          GH_TOKEN: ${{ github.token }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          set -euo pipefail
-          if ! TITLE=$(gh pr view "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --json title --jq '.title'); then
-            echo "Error: failed to fetch PR title using 'gh pr view'."
-            echo "Please check GitHub CLI authentication, API access, and network connectivity."
-            exit 1
-          fi
-          if [[ -z "$TITLE" ]]; then
-            echo "Error: 'gh pr view' returned an empty title."
-            exit 1
-          fi
-
-          if [[ ! "$TITLE" =~ ^TPT-[0-9]+:[[:space:]]*.+ ]]; then
-            echo "Invalid PR title:"
-            echo "   \"$TITLE\""
-            echo ""
-            echo "PR title must follow format:"
-            echo "   TPT-1234: Description"
-            exit 1
-          fi
-    
-          echo "PR title is valid: $TITLE"
+          GITHUB_TOKEN: ${{ github.token }}
 
       - uses: actions/checkout@v6
       - uses: actions/setup-go@v6
