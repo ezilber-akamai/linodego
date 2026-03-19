@@ -19,7 +19,7 @@ var testLKENodePoolCreateOpts = linodego.LKENodePoolCreateOptions{
 		},
 	},
 	Tags:           []string{"testing"},
-	DiskEncryption: linodego.InstanceDiskEncryption("enabled"),
+	DiskEncryption: linodego.InstanceDiskEncryptionEnabled,
 }
 
 func TestLKENodePool_GetMissing(t *testing.T) {
