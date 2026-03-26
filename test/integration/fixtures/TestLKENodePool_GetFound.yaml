@@ -128,12 +128,12 @@ interactions:
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "in-bom-2",
       "label": "Mumbai 2, IN", "country": "in", "capabilities": ["Linodes", "Block
       Storage Encryption", "LA Disk Encryption", "Disk Encryption", "Backups", "NodeBalancers",
-      "Block Storage", "Object Storage", "GPU Linodes", "Kubernetes", "Kubernetes
-      Enterprise", "Cloud Firewall", "Vlans", "VPCs", "VPC Dual Stack", "VPC IPv6
-      Stack", "Managed Databases", "Metadata", "Premium Plans", "Placement Group",
-      "StackScripts", "Maintenance Policy", "Linode Interfaces", "ACLP Logs Datacenter
-      LKE-E"], "monitors": {"alerts": ["Managed Databases"], "metrics": ["Managed
-      Databases", "NodeBalancers"]}, "status": "ok", "resolvers": {"ipv4": "172.236.171.41,172.236.171.42,172.236.171.25,172.236.171.44,172.236.171.26,172.236.171.45,172.236.171.24,172.236.171.43,172.236.171.27,172.236.171.28",
+      "Block Storage", "GPU Linodes", "Kubernetes", "Kubernetes Enterprise", "Cloud
+      Firewall", "Vlans", "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases",
+      "Metadata", "Premium Plans", "Placement Group", "StackScripts", "Maintenance
+      Policy", "Linode Interfaces", "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts":
+      ["Managed Databases"], "metrics": ["Managed Databases", "NodeBalancers"]}, "status":
+      "ok", "resolvers": {"ipv4": "172.236.171.41,172.236.171.42,172.236.171.25,172.236.171.44,172.236.171.26,172.236.171.45,172.236.171.24,172.236.171.43,172.236.171.27,172.236.171.28",
       "ipv6": "1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678"},
       "placement_group_limits": {"maximum_pgs_per_customer": null, "maximum_linodes_per_pg":
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "de-fra-2",
@@ -173,33 +173,33 @@ interactions:
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "no-osl-1",
       "label": "Oslo, NO", "country": "no", "capabilities": ["Linodes", "Block Storage
       Encryption", "Disk Encryption", "Backups", "NodeBalancers", "Block Storage",
-      "Object Storage", "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans",
-      "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata",
-      "Premium Plans", "Placement Group", "StackScripts", "Maintenance Policy", "Linode
-      Interfaces", "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts": ["Managed
-      Databases", "NodeBalancers"], "metrics": ["Managed Databases", "NodeBalancers"]},
-      "status": "ok", "resolvers": {"ipv4": "172.238.140.33,172.238.140.25,172.238.140.30,172.238.140.31,172.238.140.26,172.238.140.28,172.238.140.34,172.238.140.32,172.238.140.27,172.238.140.29",
+      "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans", "VPCs", "VPC
+      Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata", "Premium Plans",
+      "Placement Group", "StackScripts", "Maintenance Policy", "Linode Interfaces",
+      "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts": ["Managed Databases",
+      "NodeBalancers"], "metrics": ["Managed Databases", "NodeBalancers"]}, "status":
+      "ok", "resolvers": {"ipv4": "172.238.140.33,172.238.140.25,172.238.140.30,172.238.140.31,172.238.140.26,172.238.140.28,172.238.140.34,172.238.140.32,172.238.140.27,172.238.140.29",
       "ipv6": "1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678"},
       "placement_group_limits": {"maximum_pgs_per_customer": null, "maximum_linodes_per_pg":
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "us-iad-2",
       "label": "Washington 2, DC", "country": "us", "capabilities": ["Linodes", "Block
       Storage Encryption", "Disk Encryption", "Backups", "NodeBalancers", "Block Storage",
-      "Object Storage", "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans",
-      "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata",
-      "Premium Plans", "Placement Group", "StackScripts", "Maintenance Policy", "Linode
-      Interfaces"], "monitors": {"alerts": ["Managed Databases"], "metrics": ["Managed
-      Databases", "NodeBalancers"]}, "status": "ok", "resolvers": {"ipv4": "172.239.142.102,172.239.142.89,172.239.142.92,172.239.142.87,172.239.142.88,172.239.142.103,172.239.142.91,172.239.142.90,172.239.142.86,172.239.142.100",
+      "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans", "VPCs", "VPC
+      Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata", "Premium Plans",
+      "Placement Group", "StackScripts", "Maintenance Policy", "Linode Interfaces"],
+      "monitors": {"alerts": ["Managed Databases"], "metrics": ["Managed Databases",
+      "NodeBalancers"]}, "status": "ok", "resolvers": {"ipv4": "172.239.142.102,172.239.142.89,172.239.142.92,172.239.142.87,172.239.142.88,172.239.142.103,172.239.142.91,172.239.142.90,172.239.142.86,172.239.142.100",
       "ipv6": "1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678"},
       "placement_group_limits": {"maximum_pgs_per_customer": null, "maximum_linodes_per_pg":
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "fr-par-2",
       "label": "Paris 2, FR", "country": "fr", "capabilities": ["Linodes", "Block
       Storage Encryption", "Disk Encryption", "Backups", "NodeBalancers", "Block Storage",
-      "Object Storage", "GPU Linodes", "Kubernetes", "Kubernetes Enterprise", "Cloud
-      Firewall", "Vlans", "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases",
-      "Metadata", "Premium Plans", "Placement Group", "StackScripts", "Maintenance
-      Policy", "Linode Interfaces", "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts":
-      ["Managed Databases"], "metrics": ["Managed Databases", "NodeBalancers"]}, "status":
-      "ok", "resolvers": {"ipv4": "172.239.11.24,172.239.11.22,172.239.11.17,172.239.11.20,172.239.11.23,172.239.11.19,172.239.11.21,172.239.11.15,172.239.11.16,172.239.11.18",
+      "GPU Linodes", "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans",
+      "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata",
+      "Premium Plans", "Placement Group", "StackScripts", "Maintenance Policy", "Linode
+      Interfaces", "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts": ["Managed
+      Databases"], "metrics": ["Managed Databases", "NodeBalancers"]}, "status": "ok",
+      "resolvers": {"ipv4": "172.239.11.24,172.239.11.22,172.239.11.17,172.239.11.20,172.239.11.23,172.239.11.19,172.239.11.21,172.239.11.15,172.239.11.16,172.239.11.18",
       "ipv6": "1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678"},
       "placement_group_limits": {"maximum_pgs_per_customer": null, "maximum_linodes_per_pg":
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "nl-ams",
@@ -403,7 +403,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:58:41 GMT
+      - Thu, 26 Mar 2026 19:14:17 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -474,7 +474,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:58:41 GMT
+      - Thu, 26 Mar 2026 19:14:18 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -510,7 +510,7 @@ interactions:
     url: https://api.linode.com/v4beta/lke/clusters
     method: POST
   response:
-    body: '{"id": 581950, "status": "ready", "created": "2018-01-02T03:04:05", "updated":
+    body: '{"id": 584692, "status": "ready", "created": "2018-01-02T03:04:05", "updated":
       "2018-01-02T03:04:05", "label": "go-lke-test-def", "region": "au-mel", "k8s_version":
       "1.35", "tier": "standard", "control_plane": {"high_availability": false}, "apl_enabled":
       false, "tags": ["testing"], "locks": []}'
@@ -538,7 +538,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:58:48 GMT
+      - Thu, 26 Mar 2026 19:14:26 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -571,12 +571,12 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/pools
+    url: https://api.linode.com/v4beta/lke/clusters/584692/pools
     method: POST
   response:
-    body: '{"id": 851066, "type": "g6-standard-2", "label": "", "count": 2, "nodes":
-      [{"id": "851066-43a084bf0000", "instance_id": 94449618, "status": "not_ready"},
-      {"id": "851066-534d1df90000", "instance_id": null, "status": "not_ready"}],
+    body: '{"id": 855492, "type": "g6-standard-2", "label": "", "count": 2, "nodes":
+      [{"id": "855492-566dd8fc0000", "instance_id": null, "status": "not_ready"},
+      {"id": "855492-6732aa670000", "instance_id": 94907006, "status": "not_ready"}],
       "disks": [{"size": 1000, "type": "ext4"}], "autoscaler": {"enabled": false,
       "min": 2, "max": 2}, "labels": {}, "taints": [], "tags": ["testing"], "disk_encryption":
       "enabled", "locks": []}'
@@ -604,7 +604,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:58:50 GMT
+      - Thu, 26 Mar 2026 19:14:28 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -637,12 +637,12 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/pools/851066
+    url: https://api.linode.com/v4beta/lke/clusters/584692/pools/855492
     method: GET
   response:
-    body: '{"id": 851066, "type": "g6-standard-2", "label": "", "count": 2, "nodes":
-      [{"id": "851066-43a084bf0000", "instance_id": 94449618, "status": "not_ready"},
-      {"id": "851066-534d1df90000", "instance_id": 94449619, "status": "not_ready"}],
+    body: '{"id": 855492, "type": "g6-standard-2", "label": "", "count": 2, "nodes":
+      [{"id": "855492-566dd8fc0000", "instance_id": 94907010, "status": "not_ready"},
+      {"id": "855492-6732aa670000", "instance_id": 94907006, "status": "not_ready"}],
       "disks": [{"size": 1000, "type": "ext4"}], "autoscaler": {"enabled": false,
       "min": 2, "max": 2}, "labels": {}, "taints": [], "tags": ["testing"], "disk_encryption":
       "enabled", "locks": []}'
@@ -670,7 +670,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:58:51 GMT
+      - Thu, 26 Mar 2026 19:14:28 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -704,7 +704,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/kubeconfig
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
     method: GET
   response:
     body: '{"errors": [{"reason": "Cluster kubeconfig is not yet available. Please
@@ -727,7 +727,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:58:52 GMT
+      - Thu, 26 Mar 2026 19:14:29 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -755,7 +755,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/kubeconfig
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
     method: GET
   response:
     body: '{"errors": [{"reason": "Cluster kubeconfig is not yet available. Please
@@ -778,7 +778,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:58:55 GMT
+      - Thu, 26 Mar 2026 19:14:33 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -806,7 +806,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/kubeconfig
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
     method: GET
   response:
     body: '{"errors": [{"reason": "Cluster kubeconfig is not yet available. Please
@@ -829,7 +829,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:59:00 GMT
+      - Thu, 26 Mar 2026 19:14:36 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -857,7 +857,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/kubeconfig
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
     method: GET
   response:
     body: '{"errors": [{"reason": "Cluster kubeconfig is not yet available. Please
@@ -880,7 +880,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:59:10 GMT
+      - Thu, 26 Mar 2026 19:14:48 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -908,7 +908,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/kubeconfig
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
     method: GET
   response:
     body: '{"errors": [{"reason": "Cluster kubeconfig is not yet available. Please
@@ -931,7 +931,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:59:24 GMT
+      - Thu, 26 Mar 2026 19:15:04 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -959,7 +959,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/kubeconfig
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
     method: GET
   response:
     body: '{"errors": [{"reason": "Cluster kubeconfig is not yet available. Please
@@ -982,7 +982,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 15:59:45 GMT
+      - Thu, 26 Mar 2026 19:15:24 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -1010,7 +1010,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/kubeconfig
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
     method: GET
   response:
     body: '{"errors": [{"reason": "Cluster kubeconfig is not yet available. Please
@@ -1033,7 +1033,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:00:09 GMT
+      - Thu, 26 Mar 2026 19:15:53 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -1061,10 +1061,61 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/kubeconfig
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
     method: GET
   response:
-    body: '{"kubeconfig": "CmFwaVZlcnNpb246IHYxCmtpbmQ6IENvbmZpZwpwcmVmZXJlbmNlczoge30KCmNsdXN0ZXJzOgotIGNsdXN0ZXI6CiAgICBjZXJ0aWZpY2F0ZS1hdXRob3JpdHktZGF0YTogTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVUkNWRU5EUVdVeVowRjNTVUpCWjBsSlVqTk9OMGRKVmtabmNHOTNSRkZaU2t0dldrbG9kbU5PUVZGRlRFSlJRWGRHVkVWVVRVSkZSMEV4VlVVS1FYaE5TMkV6Vm1sYVdFcDFXbGhTYkdONlFXVkdkekI1VG1wQmVrMVVhM2hPVkZWNlRsUnNZVVozTUhwT2FrRjZUVlJaZUU1VVZUUk9WR3hoVFVKVmVBcEZla0ZTUW1kT1ZrSkJUVlJEYlhReFdXMVdlV0p0VmpCYVdFMTNaMmRGYVUxQk1FZERVM0ZIVTBsaU0wUlJSVUpCVVZWQlFUUkpRa1IzUVhkblowVkxDa0Z2U1VKQlVVUk5hVWhGUmtsVFNsSk1jR1poTjBSU1NrWnJUWFZTUTB4V2JFcHNPVFpSY25CdU5HUkZNMUUyWVhCQ2VHWjBkRzR5Y1dabkswRjNlbXNLWW14UFFVWkRRM2x5UjNaeFl5OWtXVUp1TUhwWVdXOTZWa1YwUWtaRGRqTkxUVFJLYVRjeE5YUm5TRTFxTlhBeU1pdG9XRlZYU0ZaNFRXMVZkRGx1UWdwaVJHbHdZV3A0UzNkdVF6aGthVWRTU2tWa1dVdEtWWE55ZWxveVF6QmllbkZFUkdrME4ydFlTMUZCYjNWa1QyaFZWVUZ2YVhsTlZEUXZOWEp2ZERsbENrWnhVR3hJUm5OSlowMTRjMmx3Wm14WlJHaExibEZXWW1Kc1RtZHpkRnBwUkRCQ1VVNXpSemh4VjFVNGFtWXpjall6ZEhoU2VVbzJVR1pOV1Vrek1XSUtNVTFHUVRCc2MyMUJXbHBLTXpsNkszbHRlSFpxZWxWeFRuTmhWRVpaTUU1R2VFZEdNVUpaVDFCcFYwOUZhME5CZGtRclRXMDBSWGxoZFVrMGQwMVlUQW81T0dSSFRUTjFSR04yWlRSUFMycHNNSFV6YURWT01VY3hSamxvUVdkTlFrRkJSMnBYVkVKWVRVRTBSMEV4VldSRWQwVkNMM2RSUlVGM1NVTndSRUZRQ2tKblRsWklVazFDUVdZNFJVSlVRVVJCVVVndlRVSXdSMEV4VldSRVoxRlhRa0pVUkV0b2FEaHZlVTR4SzNsUmFsaHFlWEppTjFseFQwSnBhVTlFUVZZS1FtZE9Wa2hTUlVWRWFrRk5aMmR3Y21SWFNteGpiVFZzWkVkV2VrMUJNRWREVTNGSFUwbGlNMFJSUlVKRGQxVkJRVFJKUWtGUlEzRjNaWEpvWTBJeFpRcDJWVlV4ZEZkUVNqUkRVWEJZZUVRclZESlBZelJHUTNWMUszWm1jMUZJWW1ObFRVTlVjV0pZY2tkalV5dFpiVWx4YTFSVmIwNDRVR1ZsZW1WVE9EQnFDazFYWkhSM1lWY3dVR2RyVlZwSEszRjRPSGczWTFOUlQydHFRVzEyTmpRd2JIZHlVSFZsTWxCd1dtZEhVelJHSzNORFVqSlVNSHA2U21OU1lrUmhOa1FLVFhSMWMwMURZV3REZFRod1MzZEVObEJFWWtoNE1VczNLelJGVkRSUmQyVkVZVm8xVlRWaFNWWlBTVFJxVG1KWFFqWXJSSFppVUV4aVduaEtSRlZ0WkFwdVZWQjVXbWRuUlZoNGNsbHFaek5WTDJFd1RIbzJja2RSVlhkbk9FaHlhemxhU1daUGNrVkdVV294UlRkM01VcFNWVU55UkhCT2NFSmFlRFJOV0ZoQ0NuVkxValpuTUhGaVpVdEhRWEk1WmpOeGJGTjRSV2hZYzFKclRYQkpiRXhFY1VaSlowbDBPRXBIYmpWSVdFVklVMVF2VlROeVYwaEVXakJyTWtGUlRGY0thbmd2Y1hCMmQyaDNRVTFpQ2kwdExTMHRSVTVFSUVORlVsUkpSa2xEUVZSRkxTMHRMUzBLCiAgICBzZXJ2ZXI6IGh0dHBzOi8vNGQ3NmJjNTMtNGIwNC00MmQ1LTljNjEtNDJhOTQwNGJhZTA0LmF1LW1lbC0yLWd3Lmxpbm9kZWxrZS5uZXQ6NDQzCiAgbmFtZTogbGtlNTgxOTUwCgp1c2VyczoKLSBuYW1lOiBsa2U1ODE5NTAtYWRtaW4KICB1c2VyOgogICAgYXMtdXNlci1leHRyYToge30KICAgIHRva2VuOiBleUpoYkdjaU9pSlNVekkxTmlJc0ltdHBaQ0k2SW1sM2VGUTFYM1UyWTFsMFZISjVObWN0ZUVWV2JUWjJiSE5HZVZSMU9IaFRVM1J1UmpSdGVHYzRVRGdpZlEuZXlKcGMzTWlPaUpyZFdKbGNtNWxkR1Z6TDNObGNuWnBZMlZoWTJOdmRXNTBJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5dVlXMWxjM0JoWTJVaU9pSnJkV0psTFhONWMzUmxiU0lzSW10MVltVnlibVYwWlhNdWFXOHZjMlZ5ZG1salpXRmpZMjkxYm5RdmMyVmpjbVYwTG01aGJXVWlPaUpzYTJVdFlXUnRhVzR0ZEc5clpXNHRkemxqT0RnaUxDSnJkV0psY201bGRHVnpMbWx2TDNObGNuWnBZMlZoWTJOdmRXNTBMM05sY25acFkyVXRZV05qYjNWdWRDNXVZVzFsSWpvaWJHdGxMV0ZrYldsdUlpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzl6WlhKMmFXTmxMV0ZqWTI5MWJuUXVkV2xrSWpvaU5UWXpOREE1TjJFdE5USmlOaTAwTTJZeUxXSXlObVl0T0RsalltWTVOakpoWlRGa0lpd2ljM1ZpSWpvaWMzbHpkR1Z0T25ObGNuWnBZMlZoWTJOdmRXNTBPbXQxWW1VdGMzbHpkR1Z0T214clpTMWhaRzFwYmlKOS5nek01RXFCSmgyekkzeExCV1RPM0lUcndUUGRFWG94d3pTSFpMQjBYemh3SXZOeFk3dkFibHVWUWRCSWNTaXlUaldheGFBOFNWOFViUVBKQmNxVV9LbFVpaDJBeGxsXzZDbl9nbTJuZXBVSHhwMEhLTTMzQklVTGpaTWIxM0I1bjZrcVc5U19aTWlsM2VhZXhJc0dGX0tubWRTUFVpdUVaOGljRE5WR0RIeTRDOHVuM0FFNjlobEVkbEVyaTh6bDJzZlFrNHl4UGM5dmpjM1hZVjZTcUpScVdRTjNtTWNkam5wbGpobXA5VEluZVlJTHozQ0RZTzF3b2FUY2xGakVIa2tKR3NpT0dJOUtFT3NXR3hKYTRTZWFVM2ZIakV6Zmc4eGJGcHBrcW5SSWdqV2Y1WTU3OVlqRmVDUnYzQXFoR3pYWGliZHBobi1NcXIyd3dZUFRlYXcKCmNvbnRleHRzOgotIGNvbnRleHQ6CiAgICBjbHVzdGVyOiBsa2U1ODE5NTAKICAgIG5hbWVzcGFjZTogZGVmYXVsdAogICAgdXNlcjogbGtlNTgxOTUwLWFkbWluCiAgbmFtZTogbGtlNTgxOTUwLWN0eAoKY3VycmVudC1jb250ZXh0OiBsa2U1ODE5NTAtY3R4Cg=="}'
+    body: '{"errors": [{"reason": "Cluster kubeconfig is not yet available. Please
+      try again later."}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Authorization, Origin, X-Requested-With, Content-Type, Accept, X-Filter
+      Access-Control-Allow-Methods:
+      - HEAD, GET, OPTIONS, POST, PUT, DELETE
+      Access-Control-Allow-Origin:
+      - '*'
+      Akamai-Internal-Account:
+      - '*'
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Connection:
+      - keep-alive
+      Content-Length:
+      - "92"
+      Content-Type:
+      - application/json
+      Expires:
+      - Thu, 26 Mar 2026 19:16:10 GMT
+      Pragma:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31536000
+      Vary:
+      - Authorization, X-Filter
+      X-Accepted-Oauth-Scopes:
+      - lke:read_write
+      X-Frame-Options:
+      - DENY
+      X-Oauth-Scopes:
+      - '*'
+      X-Ratelimit-Limit:
+      - "1840"
+    status: 503 Service Unavailable
+    code: 503
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      User-Agent:
+      - linodego/dev https://github.com/linode/linodego
+    url: https://api.linode.com/v4beta/lke/clusters/584692/kubeconfig
+    method: GET
+  response:
+    body: '{"kubeconfig": "CmFwaVZlcnNpb246IHYxCmtpbmQ6IENvbmZpZwpwcmVmZXJlbmNlczoge30KCmNsdXN0ZXJzOgotIGNsdXN0ZXI6CiAgICBjZXJ0aWZpY2F0ZS1hdXRob3JpdHktZGF0YTogTFMwdExTMUNSVWRKVGlCRFJWSlVTVVpKUTBGVVJTMHRMUzB0Q2sxSlNVUkNWRU5EUVdVeVowRjNTVUpCWjBsSlRWUlNZa1JDU0dRd1pHTjNSRkZaU2t0dldrbG9kbU5PUVZGRlRFSlJRWGRHVkVWVVRVSkZSMEV4VlVVS1FYaE5TMkV6Vm1sYVdFcDFXbGhTYkdONlFXVkdkekI1VG1wQmVrMXFXWGhQVkVFMVRYcFNZVVozTUhwT2FrRjZUV3BOZUU5VVJUQk5lbEpoVFVKVmVBcEZla0ZTUW1kT1ZrSkJUVlJEYlhReFdXMVdlV0p0VmpCYVdFMTNaMmRGYVUxQk1FZERVM0ZIVTBsaU0wUlJSVUpCVVZWQlFUUkpRa1IzUVhkblowVkxDa0Z2U1VKQlVVUmljR05NUjJjemRIRldhblUzUldoS1NVNWhUR3RvUzBoemFrTk9TRk5qUmxsM1RHbFVUV0Z1WWxSYVlqRkVlR3RRU1hadVkwMVJOakVLZW1JeFREa3hZWE5YVGtWelYxSmtaa0ZyVVU0elZpdFdRamh5ZVVkQmJIbzJSVU41UzBZM1pqWlNNRTQxV0V0QlNXRnJVbnBPWlVSUU1sRktSVVpXVndwemNFaEhhU3R2YUhGTU1VVmlNVXQ2V1VoWVZVTmllbVZRTW1GRlJsWkhWVzgzVkdFM1dubzNWMk13YkZKYU9VaEZSbXR1YjJGeVNVODVjRkZaWkdkaENpODFSVU5zWmtsQ0wyWjZhSHAxWnpCdVZVMDVSQ3R0ZG1OWVUwSkVNa3BJWkM5UlVuWjROWE4xZVRkWlNVVXJNM0lyUTJnclprbHNSRTlMYnpoNmVURUtTbVpZU1daUVVuZFRUMFp1VWtweE5sZG5TRzAxYWxGc05VYzNhMmRtT1ZWQlpGUXlkMFpuYW5Wb2RUUlNPWGxUUjJWVVNrSnVWMnh4VTFWSmQxSlVNUXB5VDAxaVRIVnVabGhRYmxWR05XeHpUMGRoWkhKbk0wUkNlRWRJUVdkTlFrRkJSMnBYVkVKWVRVRTBSMEV4VldSRWQwVkNMM2RSUlVGM1NVTndSRUZRQ2tKblRsWklVazFDUVdZNFJVSlVRVVJCVVVndlRVSXdSMEV4VldSRVoxRlhRa0pUYVdvMlQyUjJWM2xLZUV4cldHa3lWVUpFVTIxaVZWaEhkRTU2UVZZS1FtZE9Wa2hTUlVWRWFrRk5aMmR3Y21SWFNteGpiVFZzWkVkV2VrMUJNRWREVTNGSFUwbGlNMFJSUlVKRGQxVkJRVFJKUWtGUlFqVk5VMUpHUkdOMlpRcFZkakUzVjA1V1lVMUdNR3hKYlcxU1YzUm5OWGxuUlVsVlUwUndZazVGZFdwelNreEpabk5ZUlRGM1RVbEZVa1JIZEd3d2EyUkhabm8wVTB0YVVYSnhDbTh2TWpSTGJGaGpkbWREVGpCU1FtY3JhazAxVTJsQ1dqUnBhRkJCUjJwb1VqaGlXVWxxUjI0MUt6ZFdPVzlUUmpKRk5tWmlNSGMyYld4dVlWcDVjRGNLUlZaclIwTm1jMVpQVGl0YWFFeGFTWEEwVlZaM2VtMUdhbFF5YjFWMFFpdDRXU3RtWXpaTGJVSjNRMWt6Ym5Cck4xSklTblE0Vnl0cWNpdFZhWHBsWlFwNmJrOHJNRUo0U0RORGVHZ3hhREpMT1ZOa1lVSkZla1JZVEc1dlkwWnFNVUpUZVVSUU9TOVVNblpETkhsa1pFcFhWMGgyTmpoVGVHTkhhMlZTU1ZGWkNuWlhUMmt2ZEhwRGF6WnpaRmxTZERoeU4yNHJSWGRqY1RkQ0wyMXBVbGxSUjNaTE1rWkdhMVpMVlVzeFdUSTRRVTFhVUZkU0sxRXpiR1pRVlRGbVVsa0tVWEphVmtNMWFISjFTVmN4Q2kwdExTMHRSVTVFSUVORlVsUkpSa2xEUVZSRkxTMHRMUzBLCiAgICBzZXJ2ZXI6IGh0dHBzOi8vNTI3YWFhOWItZGUzMS00YTk5LWEyNTMtMzFjNzRhNjUwM2EzLmF1LW1lbC0yLWd3Lmxpbm9kZWxrZS5uZXQ6NDQzCiAgbmFtZTogbGtlNTg0NjkyCgp1c2VyczoKLSBuYW1lOiBsa2U1ODQ2OTItYWRtaW4KICB1c2VyOgogICAgYXMtdXNlci1leHRyYToge30KICAgIHRva2VuOiBleUpoYkdjaU9pSlNVekkxTmlJc0ltdHBaQ0k2SWkwMmJIRkhSRzUzV0ZoVlVEbHBURTFPUlZST1UyWktaa1JUWlhrNFVIWXlhVXhhWDFkUVIxUlFNRUVpZlEuZXlKcGMzTWlPaUpyZFdKbGNtNWxkR1Z6TDNObGNuWnBZMlZoWTJOdmRXNTBJaXdpYTNWaVpYSnVaWFJsY3k1cGJ5OXpaWEoyYVdObFlXTmpiM1Z1ZEM5dVlXMWxjM0JoWTJVaU9pSnJkV0psTFhONWMzUmxiU0lzSW10MVltVnlibVYwWlhNdWFXOHZjMlZ5ZG1salpXRmpZMjkxYm5RdmMyVmpjbVYwTG01aGJXVWlPaUpzYTJVdFlXUnRhVzR0ZEc5clpXNHRaRFIyYlRJaUxDSnJkV0psY201bGRHVnpMbWx2TDNObGNuWnBZMlZoWTJOdmRXNTBMM05sY25acFkyVXRZV05qYjNWdWRDNXVZVzFsSWpvaWJHdGxMV0ZrYldsdUlpd2lhM1ZpWlhKdVpYUmxjeTVwYnk5elpYSjJhV05sWVdOamIzVnVkQzl6WlhKMmFXTmxMV0ZqWTI5MWJuUXVkV2xrSWpvaVkyVXlNVGswWXpjdE9XUmpNQzAwTW1aakxXSTJNakF0WmpabU5qazBZemRoWWpFd0lpd2ljM1ZpSWpvaWMzbHpkR1Z0T25ObGNuWnBZMlZoWTJOdmRXNTBPbXQxWW1VdGMzbHpkR1Z0T214clpTMWhaRzFwYmlKOS5abERHRXd1Nzd3bWxnNHBtNjNwQXJHS2lqajlvRV9zQnBnaVlHMjlhWnh2WUhQYWpRQnAweE9iNWdsYVI5bGxUajV5ZHdkWFdGZlRWd1hVV1hHeHlNM2xsVFNUUExMblJTQXhnOGpHZ2dfUXd5YmtXRDdNZ0x6cEctNk44dTlmSFZMLU5YYzBWT2U1dTJhM1NHdWY1VTVVRUxWcGNlTlQ2YVBZMURGaV8tZ0FSbnpNZmFiNDR2RU14NFp6MnV3M0Y2eWFYakIyZFNCSnplRFp2OVFvSHFBSlJLN3VvaGNjTUtncC1DQXREdFJhZW1oMXhsNXItMEZpVkJxLVdFWGxvQkh3VjBucE9OemFBRE9xZk5IYk13a0NKeHcyQkVDaVBsNUdqSmtsNjhoUjNUYWpWMzRoWnk5T2Q1bmI1VkVoeUJpblRnenhjWVZtVGd1ZHRsalB6OXcKCmNvbnRleHRzOgotIGNvbnRleHQ6CiAgICBjbHVzdGVyOiBsa2U1ODQ2OTIKICAgIG5hbWVzcGFjZTogZGVmYXVsdAogICAgdXNlcjogbGtlNTg0NjkyLWFkbWluCiAgbmFtZTogbGtlNTg0NjkyLWN0eAoKY3VycmVudC1jb250ZXh0OiBsa2U1ODQ2OTItY3R4Cg=="}'
     headers:
       Access-Control-Allow-Credentials:
       - "true"
@@ -1087,7 +1138,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:00:35 GMT
+      - Thu, 26 Mar 2026 19:16:36 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -1122,12 +1173,12 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/pools/851066
+    url: https://api.linode.com/v4beta/lke/clusters/584692/pools/855492
     method: GET
   response:
-    body: '{"id": 851066, "type": "g6-standard-2", "label": "", "count": 2, "nodes":
-      [{"id": "851066-43a084bf0000", "instance_id": 94449618, "status": "not_ready"},
-      {"id": "851066-534d1df90000", "instance_id": 94449619, "status": "not_ready"}],
+    body: '{"id": 855492, "type": "g6-standard-2", "label": "", "count": 2, "nodes":
+      [{"id": "855492-566dd8fc0000", "instance_id": 94907010, "status": "not_ready"},
+      {"id": "855492-6732aa670000", "instance_id": 94907006, "status": "not_ready"}],
       "disks": [{"size": 1000, "type": "ext4"}], "autoscaler": {"enabled": false,
       "min": 2, "max": 2}, "labels": {}, "taints": [], "tags": ["testing"], "disk_encryption":
       "enabled", "locks": []}'
@@ -1155,7 +1206,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:00:52 GMT
+      - Thu, 26 Mar 2026 19:17:07 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -1189,20 +1240,20 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/linode/instances/94449618
+    url: https://api.linode.com/v4beta/linode/instances/94907010
     method: GET
   response:
-    body: '{"id": 94449618, "label": "lke581950-851066-43a084bf0000", "group": "",
+    body: '{"id": 94907010, "label": "lke584692-855492-566dd8fc0000", "group": "",
       "status": "offline", "created": "2018-01-02T03:04:05", "updated": "2018-01-02T03:04:05",
-      "type": "g6-standard-2", "ipv4": ["172.236.51.12", "192.168.129.153"], "ipv6":
+      "type": "g6-standard-2", "ipv4": ["172.236.53.179", "192.168.128.246"], "ipv6":
       "1234::5678/128", "image": null, "region": "au-mel", "site_type":
       "core", "specs": {"disk": 81920, "memory": 4096, "vcpus": 2, "gpus": 0, "transfer":
       4000, "accelerated_devices": 0}, "alerts": {"cpu": 180, "network_in": 10, "network_out":
       10, "transfer_quota": 80, "io": 10000}, "backups": {"enabled": true, "available":
       true, "schedule": {"day": "Scheduling", "window": "Scheduling"}, "last_successful":
       null}, "hypervisor": "kvm", "watchdog_enabled": true, "tags": [], "host_uuid":
-      "8ed57c99100cea41b2ad2b7247e9e168b87f49d8", "has_user_data": false, "placement_group":
-      null, "disk_encryption": "enabled", "lke_cluster_id": 581950, "capabilities":
+      "580d082ddaa5351153f6c72ee623fd5f95040116", "has_user_data": false, "placement_group":
+      null, "disk_encryption": "enabled", "lke_cluster_id": 584692, "capabilities":
       ["Block Storage Encryption", "SMTP Enabled", "Maintenance Policy"], "interface_generation":
       "legacy_config", "maintenance_policy": "linode/power_off_on", "locks": []}'
     headers:
@@ -1227,7 +1278,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:00:53 GMT
+      - Thu, 26 Mar 2026 19:17:08 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -1262,20 +1313,20 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/linode/instances/94449619
+    url: https://api.linode.com/v4beta/linode/instances/94907006
     method: GET
   response:
-    body: '{"id": 94449619, "label": "lke581950-851066-534d1df90000", "group": "",
+    body: '{"id": 94907006, "label": "lke584692-855492-6732aa670000", "group": "",
       "status": "offline", "created": "2018-01-02T03:04:05", "updated": "2018-01-02T03:04:05",
-      "type": "g6-standard-2", "ipv4": ["172.236.51.112", "192.168.129.16"], "ipv6":
+      "type": "g6-standard-2", "ipv4": ["172.236.32.242", "192.168.128.136"], "ipv6":
       "1234::5678/128", "image": null, "region": "au-mel", "site_type":
       "core", "specs": {"disk": 81920, "memory": 4096, "vcpus": 2, "gpus": 0, "transfer":
       4000, "accelerated_devices": 0}, "alerts": {"cpu": 180, "network_in": 10, "network_out":
       10, "transfer_quota": 80, "io": 10000}, "backups": {"enabled": true, "available":
       true, "schedule": {"day": "Scheduling", "window": "Scheduling"}, "last_successful":
       null}, "hypervisor": "kvm", "watchdog_enabled": true, "tags": [], "host_uuid":
-      "3e3e0a7e79e0008de5ca42ce764eb79ba83ead36", "has_user_data": false, "placement_group":
-      null, "disk_encryption": "enabled", "lke_cluster_id": 581950, "capabilities":
+      "8838b5e31afe7dadd45cfebe45b5b6bda1780abc", "has_user_data": false, "placement_group":
+      null, "disk_encryption": "enabled", "lke_cluster_id": 584692, "capabilities":
       ["Block Storage Encryption", "SMTP Enabled", "Maintenance Policy"], "interface_generation":
       "legacy_config", "maintenance_policy": "linode/power_off_on", "locks": []}'
     headers:
@@ -1300,7 +1351,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:00:53 GMT
+      - Thu, 26 Mar 2026 19:17:08 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -1335,7 +1386,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950/pools/851066
+    url: https://api.linode.com/v4beta/lke/clusters/584692/pools/855492
     method: DELETE
   response:
     body: '{}'
@@ -1363,7 +1414,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:00:55 GMT
+      - Thu, 26 Mar 2026 19:17:10 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -1396,7 +1447,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581950
+    url: https://api.linode.com/v4beta/lke/clusters/584692
     method: DELETE
   response:
     body: '{}'
@@ -1424,7 +1475,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:00:59 GMT
+      - Thu, 26 Mar 2026 19:17:14 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:

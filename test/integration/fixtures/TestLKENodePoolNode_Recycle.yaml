@@ -128,12 +128,12 @@ interactions:
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "in-bom-2",
       "label": "Mumbai 2, IN", "country": "in", "capabilities": ["Linodes", "Block
       Storage Encryption", "LA Disk Encryption", "Disk Encryption", "Backups", "NodeBalancers",
-      "Block Storage", "Object Storage", "GPU Linodes", "Kubernetes", "Kubernetes
-      Enterprise", "Cloud Firewall", "Vlans", "VPCs", "VPC Dual Stack", "VPC IPv6
-      Stack", "Managed Databases", "Metadata", "Premium Plans", "Placement Group",
-      "StackScripts", "Maintenance Policy", "Linode Interfaces", "ACLP Logs Datacenter
-      LKE-E"], "monitors": {"alerts": ["Managed Databases"], "metrics": ["Managed
-      Databases", "NodeBalancers"]}, "status": "ok", "resolvers": {"ipv4": "172.236.171.41,172.236.171.42,172.236.171.25,172.236.171.44,172.236.171.26,172.236.171.45,172.236.171.24,172.236.171.43,172.236.171.27,172.236.171.28",
+      "Block Storage", "GPU Linodes", "Kubernetes", "Kubernetes Enterprise", "Cloud
+      Firewall", "Vlans", "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases",
+      "Metadata", "Premium Plans", "Placement Group", "StackScripts", "Maintenance
+      Policy", "Linode Interfaces", "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts":
+      ["Managed Databases"], "metrics": ["Managed Databases", "NodeBalancers"]}, "status":
+      "ok", "resolvers": {"ipv4": "172.236.171.41,172.236.171.42,172.236.171.25,172.236.171.44,172.236.171.26,172.236.171.45,172.236.171.24,172.236.171.43,172.236.171.27,172.236.171.28",
       "ipv6": "1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678"},
       "placement_group_limits": {"maximum_pgs_per_customer": null, "maximum_linodes_per_pg":
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "de-fra-2",
@@ -173,33 +173,33 @@ interactions:
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "no-osl-1",
       "label": "Oslo, NO", "country": "no", "capabilities": ["Linodes", "Block Storage
       Encryption", "Disk Encryption", "Backups", "NodeBalancers", "Block Storage",
-      "Object Storage", "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans",
-      "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata",
-      "Premium Plans", "Placement Group", "StackScripts", "Maintenance Policy", "Linode
-      Interfaces", "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts": ["Managed
-      Databases", "NodeBalancers"], "metrics": ["Managed Databases", "NodeBalancers"]},
-      "status": "ok", "resolvers": {"ipv4": "172.238.140.33,172.238.140.25,172.238.140.30,172.238.140.31,172.238.140.26,172.238.140.28,172.238.140.34,172.238.140.32,172.238.140.27,172.238.140.29",
+      "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans", "VPCs", "VPC
+      Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata", "Premium Plans",
+      "Placement Group", "StackScripts", "Maintenance Policy", "Linode Interfaces",
+      "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts": ["Managed Databases",
+      "NodeBalancers"], "metrics": ["Managed Databases", "NodeBalancers"]}, "status":
+      "ok", "resolvers": {"ipv4": "172.238.140.33,172.238.140.25,172.238.140.30,172.238.140.31,172.238.140.26,172.238.140.28,172.238.140.34,172.238.140.32,172.238.140.27,172.238.140.29",
       "ipv6": "1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678"},
       "placement_group_limits": {"maximum_pgs_per_customer": null, "maximum_linodes_per_pg":
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "us-iad-2",
       "label": "Washington 2, DC", "country": "us", "capabilities": ["Linodes", "Block
       Storage Encryption", "Disk Encryption", "Backups", "NodeBalancers", "Block Storage",
-      "Object Storage", "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans",
-      "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata",
-      "Premium Plans", "Placement Group", "StackScripts", "Maintenance Policy", "Linode
-      Interfaces"], "monitors": {"alerts": ["Managed Databases"], "metrics": ["Managed
-      Databases", "NodeBalancers"]}, "status": "ok", "resolvers": {"ipv4": "172.239.142.102,172.239.142.89,172.239.142.92,172.239.142.87,172.239.142.88,172.239.142.103,172.239.142.91,172.239.142.90,172.239.142.86,172.239.142.100",
+      "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans", "VPCs", "VPC
+      Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata", "Premium Plans",
+      "Placement Group", "StackScripts", "Maintenance Policy", "Linode Interfaces"],
+      "monitors": {"alerts": ["Managed Databases"], "metrics": ["Managed Databases",
+      "NodeBalancers"]}, "status": "ok", "resolvers": {"ipv4": "172.239.142.102,172.239.142.89,172.239.142.92,172.239.142.87,172.239.142.88,172.239.142.103,172.239.142.91,172.239.142.90,172.239.142.86,172.239.142.100",
       "ipv6": "1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678"},
       "placement_group_limits": {"maximum_pgs_per_customer": null, "maximum_linodes_per_pg":
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "fr-par-2",
       "label": "Paris 2, FR", "country": "fr", "capabilities": ["Linodes", "Block
       Storage Encryption", "Disk Encryption", "Backups", "NodeBalancers", "Block Storage",
-      "Object Storage", "GPU Linodes", "Kubernetes", "Kubernetes Enterprise", "Cloud
-      Firewall", "Vlans", "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases",
-      "Metadata", "Premium Plans", "Placement Group", "StackScripts", "Maintenance
-      Policy", "Linode Interfaces", "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts":
-      ["Managed Databases"], "metrics": ["Managed Databases", "NodeBalancers"]}, "status":
-      "ok", "resolvers": {"ipv4": "172.239.11.24,172.239.11.22,172.239.11.17,172.239.11.20,172.239.11.23,172.239.11.19,172.239.11.21,172.239.11.15,172.239.11.16,172.239.11.18",
+      "GPU Linodes", "Kubernetes", "Kubernetes Enterprise", "Cloud Firewall", "Vlans",
+      "VPCs", "VPC Dual Stack", "VPC IPv6 Stack", "Managed Databases", "Metadata",
+      "Premium Plans", "Placement Group", "StackScripts", "Maintenance Policy", "Linode
+      Interfaces", "ACLP Logs Datacenter LKE-E"], "monitors": {"alerts": ["Managed
+      Databases"], "metrics": ["Managed Databases", "NodeBalancers"]}, "status": "ok",
+      "resolvers": {"ipv4": "172.239.11.24,172.239.11.22,172.239.11.17,172.239.11.20,172.239.11.23,172.239.11.19,172.239.11.21,172.239.11.15,172.239.11.16,172.239.11.18",
       "ipv6": "1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678,1234::5678"},
       "placement_group_limits": {"maximum_pgs_per_customer": null, "maximum_linodes_per_pg":
       5, "maximum_linodes_per_flexible_pg": 5}, "site_type": "core"}, {"id": "nl-ams",
@@ -403,7 +403,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:01:34 GMT
+      - Thu, 26 Mar 2026 19:17:48 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -474,7 +474,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:01:34 GMT
+      - Thu, 26 Mar 2026 19:17:48 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -510,7 +510,7 @@ interactions:
     url: https://api.linode.com/v4beta/lke/clusters
     method: POST
   response:
-    body: '{"id": 581953, "status": "ready", "created": "2018-01-02T03:04:05", "updated":
+    body: '{"id": 584695, "status": "ready", "created": "2018-01-02T03:04:05", "updated":
       "2018-01-02T03:04:05", "label": "go-lke-test-def", "region": "au-mel", "k8s_version":
       "1.35", "tier": "standard", "control_plane": {"high_availability": false}, "apl_enabled":
       false, "tags": ["testing"], "locks": []}'
@@ -538,7 +538,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:01:41 GMT
+      - Thu, 26 Mar 2026 19:17:56 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -571,12 +571,12 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581953/pools
+    url: https://api.linode.com/v4beta/lke/clusters/584695/pools
     method: POST
   response:
-    body: '{"id": 851072, "type": "g6-standard-2", "label": "", "count": 2, "nodes":
-      [{"id": "851072-008e6f1a0000", "instance_id": null, "status": "not_ready"},
-      {"id": "851072-424245a90000", "instance_id": 94449877, "status": "not_ready"}],
+    body: '{"id": 855498, "type": "g6-standard-2", "label": "", "count": 2, "nodes":
+      [{"id": "855498-20dd7f400000", "instance_id": 94907176, "status": "not_ready"},
+      {"id": "855498-2462a2310000", "instance_id": null, "status": "not_ready"}],
       "disks": [{"size": 1000, "type": "ext4"}], "autoscaler": {"enabled": false,
       "min": 2, "max": 2}, "labels": {}, "taints": [], "tags": ["testing"], "disk_encryption":
       "enabled", "locks": []}'
@@ -604,7 +604,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:01:43 GMT
+      - Thu, 26 Mar 2026 19:17:57 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -637,7 +637,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581953/nodes/851072-008e6f1a0000/recycle
+    url: https://api.linode.com/v4beta/lke/clusters/584695/nodes/855498-20dd7f400000/recycle
     method: POST
   response:
     body: '{}'
@@ -665,7 +665,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:01:46 GMT
+      - Thu, 26 Mar 2026 19:17:59 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -698,7 +698,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581953/pools/851072
+    url: https://api.linode.com/v4beta/lke/clusters/584695/pools/855498
     method: DELETE
   response:
     body: '{}'
@@ -726,7 +726,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:01:47 GMT
+      - Thu, 26 Mar 2026 19:18:01 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
@@ -759,7 +759,7 @@ interactions:
       - application/json
       User-Agent:
       - linodego/dev https://github.com/linode/linodego
-    url: https://api.linode.com/v4beta/lke/clusters/581953
+    url: https://api.linode.com/v4beta/lke/clusters/584695
     method: DELETE
   response:
     body: '{}'
@@ -787,7 +787,7 @@ interactions:
       Content-Type:
       - application/json
       Expires:
-      - Thu, 19 Mar 2026 16:01:51 GMT
+      - Thu, 26 Mar 2026 19:18:05 GMT
       Pragma:
       - no-cache
       Strict-Transport-Security:
