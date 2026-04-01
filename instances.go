@@ -188,16 +188,16 @@ type InstanceCreateOptions struct {
 	Type   string `json:"type"`
 	Label  string `json:"label,omitempty"`
 
-	AuthorizedUsers []string          `json:"authorized_users,omitempty"`
 	StackScriptID   int               `json:"stackscript_id,omitempty"`
 	StackScriptData map[string]string `json:"stackscript_data,omitempty"`
 	BackupID        int               `json:"backup_id,omitempty"`
 
-	// Image is optional, but requires at least one of RootPass or AuthorizedKeys if provided
+	// Image is optional, but requires at least one of RootPass, AuthorizedUsers, or AuthorizedKeys if provided
 	Image string `json:"image,omitempty"`
 
-	RootPass       string   `json:"root_pass,omitempty"`
-	AuthorizedKeys []string `json:"authorized_keys,omitempty"`
+	RootPass        string   `json:"root_pass,omitempty"`
+	AuthorizedKeys  []string `json:"authorized_keys,omitempty"`
+	AuthorizedUsers []string `json:"authorized_users,omitempty"`
 
 	BackupsEnabled      bool                     `json:"backups_enabled,omitempty"`
 	PrivateIP           bool                     `json:"private_ip,omitempty"`
@@ -520,13 +520,13 @@ func (c *Client) RebootInstance(ctx context.Context, linodeID int, configID int)
 
 // InstanceRebuildOptions is a struct representing the options to send to the rebuild linode endpoint
 type InstanceRebuildOptions struct {
-	// Image is optional, but requires at least one of RootPass or AuthorizedKeys if provided
+	// Image is optional, but requires at least one of RootPass, AuthorizedUsers, or AuthorizedKeys if provided
 	Image string `json:"image,omitempty"`
 
-	RootPass       string   `json:"root_pass,omitempty"`
-	AuthorizedKeys []string `json:"authorized_keys,omitempty"`
+	RootPass        string   `json:"root_pass,omitempty"`
+	AuthorizedKeys  []string `json:"authorized_keys,omitempty"`
+	AuthorizedUsers []string `json:"authorized_users,omitempty"`
 
-	AuthorizedUsers []string                 `json:"authorized_users,omitempty"`
 	StackScriptID   int                      `json:"stackscript_id,omitempty"`
 	StackScriptData map[string]string        `json:"stackscript_data,omitempty"`
 	Booted          *bool                    `json:"booted,omitempty"`
